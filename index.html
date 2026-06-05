@@ -1421,9 +1421,38 @@
         font-size: 0.8rem !important;
       }
 
-      .grid-2, .grid-3, .grid-5, .legal-impact-grid {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
+      .grid-2, .grid-3, .grid-5, .legal-impact-grid, .scenario-dashboard, .financial-details-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1.2rem !important;
+      }
+
+      .scenario-selector {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 0.5rem !important;
+        border-radius: 12px !important;
+        padding: 0.4rem !important;
+        margin-bottom: 1.5rem !important;
+      }
+
+      .scenario-btn {
+        padding: 0.6rem 0.8rem !important;
+        font-size: 0.85rem !important;
+        border-radius: 8px !important;
+      }
+
+      .scenario-meta-card {
+        padding: 1.2rem !important;
+      }
+
+      .scenario-main-val {
+        font-size: 2.8rem !important;
+        margin: 0.5rem 0 !important;
+      }
+
+      .financial-detail-card {
+        grid-column: span 1 !important; /* Reset profit card span 2 on mobile */
+        padding: 1.2rem !important;
       }
 
       .cover-title {
