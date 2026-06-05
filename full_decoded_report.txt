@@ -1,0 +1,140 @@
+﻿=== STREAM 38 ===
+KHOẢNG TRỐNG THỊ TRƯỜNG
+Doanh nghiệp đang phải tự xoay xở mọi khâu
+Hiện nay, khi đối mặt với rủi ro an ninh mạng, doanh nghiệp buộc phải tự gánh vác toàn bộ chuỗi xử lý — từ tuân thủ đến bảo vệ tài chính. Thị trường
+chưa có một giải pháp tích hợp toàn diện.
+Tuân thủ ATTT
+Đánh giá rủi ro
+Ứng cứu sự cố
+Khắc phục thiệt hại
+Bảo vệ tài chính
+Mỗi khâu đòi hỏi nguồn lực, chuyên môn và chi phí riêng biệt — gánh nặng quá lớn cho SME.
+
+=== STREAM 57 ===
+KIẾN TRÚC GIẢI PHÁP
+MÔ HÌNH 3 LỚP BẢO VỆ DOANH NGHIỆP SỐ
+Chương trình được thiết kế theo mô hình 3 lớp bảo vệ liên hoàn, giúp doanh nghiệp nâng cao năng lực an toàn thông tin, ứng phó sự cố và giảm thiểu
+tổn thất tài chính.
+LỚP 1
+HỖ TRỢ TUÂN THỦ AN TOÀN
+THÔNG TIN
+Bộ câu hỏi tự đánh giá
+Checklist tuân thủ an toàn thông tin
+Tài liệu hướng dẫn thực hành
+Đào tạo nhận thức an toàn thông tin
+Khuyến nghị cải thiện hệ thốngGiúp doanh nghiệp chủ động phòng ngừa rủi ro.
+LỚP 2
+HỖ TRỢ ỨNG CỨU SỰ CỐ
+Tổng đài hỗ trợ sự cố
+Kết nối chuyên gia an ninh mạng
+Hỗ trợ xử lý và khắc phục sự cố
+Điều phối ứng cứu khẩn cấp
+Hỗ trợ khôi phục hoạt độngGiúp doanh nghiệp phản ứng nhanh khi xảy ra sự cố.
+LỚP 3
+CƠ CHẾ BẢO VỆ TÀI CHÍNH
+Chi phí ứng cứu và khắc phục sự cố
+Chi phí khôi phục dữ liệu
+Chi phí thuê chuyên gia công nghệ
+thông tin
+Tổn thất gián đoạn hoạt động
+Trách nhiệm đối với bên thứ baGiảm thiểu tác động tài chính sau sự cố an ninh mạng.
+1
+PHÒNG NGỪA
+2
+PHÁT HIỆN
+3
+ỨNG PHÓ
+4
+KHẮC PHỤC
+5
+BẢO VỆ TÀI CHÍNHXây dựng lá chắn số toàn diện giúp doanh nghiệp nâng cao khả năng chống chịu trước các rủi ro an ninh mạng trong nền kinh tế số.
+
+=== STREAM 66 ===
+THIẾT KẾ SẢN PHẨM
+Cyber Compliance Shield Professional
+Đối tượng mục tiêu
+Doanh nghiệp nhỏ và vừa (SME)
+Hộ kinh doanh cá thể
+Doanh nghiệp thương mại điện tử
+Nhà cung cấp dịch vụ số
+Sản phẩm được tối ưu cho phân khúc đại chúng với mức phí phải chăng và hạn
+mức bảo vệ ý nghĩa.
+Tham số sản phẩm
+Phí bảo hiểm năm
+100 USD ≈ 2.600.000 VNĐ
+Hạn mức trách nhiệm
+1.000.000.000 VNĐ
+
+=== STREAM 98 ===
+MÔ HÌNH ĐÁNH GIÁ RỦI RO MỚI
+Cyber Score Framework
+Thay cho thẩm định truyền thống, doanh nghiệp tự thực hiện Self Assessment và Compliance Check để nhận về một điểm số Cyber Score — đóng vai
+trò như Underwriting Score của hệ thống.
+Gold
+Mức tuân thủ và an toàn cao nhất.
+Silver
+Mức tuân thủ khá, có cải thiện.
+Bronze
+Mức cơ bản, cần nâng cấp.
+Cyber Score trở thành chuẩn đánh giá rủi ro số hóa, minh bạch và có thể mở rộng quy mô.
+
+=== STREAM 130 ===
+QUY MÔ THỊ TRƯỜNG TIỀM NĂNG
+Một thị trường Cyber Mass tiềm năng
+1M
+Doanh nghiệp
+Giả định quy mô khách hàng tiềm năng.
+$100
+Phí/năm
+≈ 2,6 triệu VNĐ mỗi doanh nghiệp.
+$100M
+Quy mô thị trường
+≈ 2.600 tỷ VNĐ doanh thu tiềm năng/năm.
+Cơ hội
+Đây sẽ là thị trường Cyber bảo hiểm đại chúng đầu tiên
+tại Việt Nam, với dư địa tăng trưởng vượt trội và lợi thế
+tiên phong cho PVI.
+
+=== STREAM 131 ===
+05001k1.5k2k2.5k
+Doanh thu (tỷ VNĐ)
+25%50%75%100%
+Tỷ lệ tham gia
+6501.3k1.95k2.6k
+
+=== STREAM 142 ===
+KỊCH BẢN PHÁT TRIỂN
+Doanh thu theo tỷ lệ tham gia
+Doanh thu tiềm năng tăng tuyến tính theo tỷ lệ tham gia của thị trường, với kịch bản tối đa 2.600 tỷ VNĐ.
+Kịch bản 100% là mức tối đa nếu chương trình được tích hợp vào cơ chế tuân thủ ATTT trên phạm vi toàn quốc.
+
+=== STREAM 149 ===
+TÁC ĐỘNG KINH TẾ - XÃ HỘI
+Giá trị cho cả ba nhóm bên liên quan
+Đối với doanh nghiệp
+Giảm thiểu tổn thất tài chính
+Tăng khả năng phục hồi sau sự cố
+Hỗ trợ tuân thủ ATTT
+Đối với cơ quan quản lý
+Nâng cao mức độ tuân thủ
+Tăng nhận thức ATTT
+Dữ liệu phục vụ quản trị rủi ro quốc
+gia
+Đối với ngành bảo hiểm
+Mở ra thị trường Cyber Mass đầu
+tiên tại Việt Nam
+Hàng triệu khách hàng tiềm năng
+
+=== STREAM 158 ===
+LỘ TRÌNH TRIỂN KHAI
+Từ thí điểm đến chuẩn quốc gia
+Chương trình được triển khai theo ba giai đoạn, mở rộng quy mô một cách thận trọng và bền vững.
+Phase 1 — Pilot
+Triển khai thí điểm với 1.000 doanh nghiệp.
+Phase 2 — Expansion
+Mở rộng đến 10.000 doanh nghiệp.
+Phase 3 — National Rollout
+Triển khai toàn quốc với hơn 100.000 doanh
+nghiệp.
+Tầm nhìn dài hạn: Cyber Compliance Shield trở thành chuẩn bảo vệ tài chính cho doanh nghiệp Việt Nam trong nền kinh tế số.
+
