@@ -2177,7 +2177,7 @@
       }
 
       .chart-box {
-        min-width: 600px;
+        min-width: 0;
       }
 
       .slide-table {
@@ -2295,6 +2295,63 @@
       }
       .cover-slide .grid-2 {
         grid-template-columns: 1fr !important;
+      }
+
+      /* Mobile: charts fit within viewport */
+      .hbar-chart {
+        min-width: 0 !important;
+        max-width: 100% !important;
+        padding: 1rem !important;
+      }
+      .hbar-label {
+        width: 60px !important;
+        min-width: 60px !important;
+        font-size: 0.7rem !important;
+      }
+      .hbar-value {
+        width: 30px !important;
+        min-width: 30px !important;
+        font-size: 0.7rem !important;
+      }
+      .hbar-row {
+        gap: 0.4rem !important;
+      }
+      .hbar-track {
+        min-width: 0 !important;
+      }
+      .chart-bar {
+        width: 36px !important;
+        min-width: 0 !important;
+        flex-shrink: 1 !important;
+      }
+      .chart-bar-area {
+        width: 100% !important;
+        min-width: 0 !important;
+      }
+      .chart-bar-wrapper {
+        min-width: 0 !important;
+      }
+      .chart-bar-value {
+        font-size: 0.62rem !important;
+        top: -20px !important;
+      }
+      .chart-bar-label {
+        font-size: 0.65rem !important;
+        margin-top: 0.5rem !important;
+      }
+      .chart-y-axis-label {
+        left: -24px !important;
+        font-size: 0.48rem !important;
+        letter-spacing: 0.02em !important;
+      }
+      .chart-box {
+        max-width: 100% !important;
+        padding: 1rem 1rem 1rem 2.2rem !important;
+      }
+      .chart-footnote {
+        font-size: 0.65rem !important;
+        white-space: normal !important;
+        word-break: break-word !important;
       }
     }
 
@@ -2988,7 +3045,7 @@
             <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1.5rem; color: var(--text-light);">
               Theo báo cáo của S-RM, số lượng các vụ tấn công mã độc tại châu Á đã tăng mạnh trong năm 2025. Khoảng 660 tổ chức trong khu vực đã bị nêu tên trên các trang rò rỉ dữ liệu ransomware - cao hơn gấp đôi so với năm trước. Tính đến tháng 5/2026, số lượng vụ tấn công được ghi nhận đã vượt quá tổng số vụ của cả năm 2024.
             </p>
-            <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:0.5rem;"><div class="hbar-chart" style="min-width:340px;">
+            <div><div class="hbar-chart" style="width:100%;">
               <div style="font-size: 0.85rem; font-weight: 700; color: var(--accent); margin-bottom: 0.8rem; text-transform: uppercase;">Nạn nhân chia theo quốc gia (2025)</div>
               <div class="hbar-row">
                 <span class="hbar-label">Ấn Độ</span>
@@ -3024,7 +3081,7 @@
           </div>
 
           <div class="animate-el delay-2" style="display: flex; flex-direction: column; justify-content: center;">
-            <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:0.5rem;"><div class="chart-box" style="margin-top: 0; padding: 1.5rem 1.5rem 1rem 3.5rem; position: relative;">
+            <div><div class="chart-box" style="margin-top: 0; padding: 1.5rem 1.5rem 1rem 2.8rem; position: relative;">
               <div class="chart-y-axis-label" style="left: -35px;">SỐ LƯỢNG NẠN NHÂN</div>
               <div class="chart-container" style="height: 180px;">
                 <div class="chart-bar-wrapper">
