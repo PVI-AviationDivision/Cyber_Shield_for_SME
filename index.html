@@ -2919,7 +2919,7 @@
       </div>
       <div class="nav-dot-wrapper" onclick="scrollToSlide(9)">
         <div class="nav-dot"></div>
-        <span class="nav-tooltip">Thiết kế sản phẩm</span>
+        <span class="nav-tooltip">Điều kiện tham gia</span>
       </div>
       <div class="nav-dot-wrapper" onclick="scrollToSlide(10)" style="display:none;">
         <div class="nav-dot"></div>
@@ -2935,6 +2935,10 @@
             <span class="nav-tooltip">Cấp đơn tại quầy</span>
           </div>
           <div class="nav-dot-wrapper" onclick="scrollToSlide(13)">
+            <div class="nav-dot"></div>
+            <span class="nav-tooltip">Kịch bản triển khai</span>
+          </div>
+          <div class="nav-dot-wrapper" onclick="scrollToSlide(14)">
             <div class="nav-dot"></div>
             <span class="nav-tooltip">Demo khuyến nghị A05 - PVI</span>
           </div>
@@ -3630,9 +3634,23 @@
               Giải pháp tối giản, số hóa hoàn toàn giúp doanh nghiệp vừa và nhỏ (SME) dễ dàng sở hữu lớp bảo vệ tài chính thiết yếu trước các rủi ro mạng cơ bản:
             </p>
             <ul style="list-style: none; margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 1rem; font-size: 0.9rem; color: var(--text-muted); padding-left: 0;">
-              <li style="position: relative; padding-left: 1.5rem; line-height: 1.5;"><span style="position: absolute; left: 0; color: var(--accent); font-weight: bold;">✓</span> <strong>Chi phí khắc phục sự cố:</strong> Chi phí thuê chuyên gia hỗ trợ phục hồi dữ liệu rò rỉ do sự cố mạng.</li>
-              <li style="position: relative; padding-left: 1.5rem; line-height: 1.5;"><span style="position: absolute; left: 0; color: var(--accent); font-weight: bold;">✓</span> <strong>Tiền phạt theo luật định:</strong> Chi trả các khoản phạt hành chính do doanh nghiệp bị rò rỉ dữ liệu.</li>
-              <li style="position: relative; padding-left: 1.5rem; line-height: 1.5;"><span style="position: absolute; left: 0; color: var(--accent); font-weight: bold;">✓</span> <strong>Trách nhiệm bên thứ ba:</strong> Chi trả khoản bồi thường cho bên thứ ba mà doanh nghiệp có trách nhiệm pháp lý phải chi trả.</li>
+              <li style="position: relative; padding-left: 1.5rem; line-height: 1.6;">
+                <span style="position: absolute; left: 0; color: var(--accent); font-weight: bold;">✓</span>
+                <strong>Phạm vi 1 — Chi phí bên thứ nhất</strong>
+                <div style="display: flex; flex-direction: column; gap: 0.2rem; margin-top: 0.3rem; padding-left: 0.2rem; font-size: 0.88rem; color: var(--text-muted);">
+                  <div style="display: flex; gap: 0.5rem; align-items: baseline;"><span style="color: var(--accent); flex-shrink: 0;">·</span><span>Chi phí khôi phục dữ liệu cá nhân <span style="color: var(--accent); font-size: 0.82rem;">(tới 250.000.000 VNĐ)</span></span></div>
+                  <div style="display: flex; gap: 0.5rem; align-items: baseline;"><span style="color: var(--accent); flex-shrink: 0;">·</span><span>Chi phí tư vấn quản lý khủng hoảng <span style="color: var(--accent); font-size: 0.82rem;">(tới 100.000.000 VNĐ)</span></span></div>
+                </div>
+              </li>
+              <li style="position: relative; padding-left: 1.5rem; line-height: 1.6;">
+                <span style="position: absolute; left: 0; color: var(--accent); font-weight: bold;">✓</span>
+                <strong>Phạm vi 2 — Trách nhiệm bên thứ ba</strong>
+                <div style="display: flex; flex-direction: column; gap: 0.2rem; margin-top: 0.3rem; padding-left: 0.2rem; font-size: 0.88rem; color: var(--text-muted);">
+                  <div style="display: flex; gap: 0.5rem; align-items: baseline;"><span style="color: var(--accent); flex-shrink: 0;">·</span><span>Tiền phạt pháp lý do lộ lọt dữ liệu</span></div>
+                  <div style="display: flex; gap: 0.5rem; align-items: baseline;"><span style="color: var(--accent); flex-shrink: 0;">·</span><span>Trách nhiệm pháp lý với bên thứ ba (khiếu kiện từ chủ thể dữ liệu)</span></div>
+                  <div style="display: flex; gap: 0.5rem; align-items: baseline; margin-top: 0.1rem;"><span style="color: var(--accent); flex-shrink: 0;">→</span><span style="font-style: italic;">Hạn mức tối đa: toàn bộ hạn mức chương trình</span></div>
+                </div>
+              </li>
             </ul>
             
             <div class="target-box">
@@ -3658,7 +3676,7 @@
                 </div>
                 <div style="flex: 1;">
                   <div style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: #2E7D32; font-weight: 700; margin-bottom: 0.3rem;">Hạn mức bảo vệ</div>
-                  <div style="font-size: 1.8rem; color: #2E7D32; font-weight: 800; line-height: 1.1;">260.000.000</div>
+                  <div style="font-size: 1.8rem; color: #2E7D32; font-weight: 800; line-height: 1.1;">500.000.000</div>
                   <div style="font-size: 0.8rem; color: #2E7D32; font-weight: 600;">VNĐ tối đa / năm</div>
                 </div>
               </div>
@@ -3676,13 +3694,88 @@
                 </div>
                 <div style="flex: 1;">
                   <div style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: #2E7D32; font-weight: 700; margin-bottom: 0.3rem;">Hạn mức bảo vệ</div>
-                  <div style="font-size: 1.8rem; color: #2E7D32; font-weight: 800; line-height: 1.1;">500.000.000</div>
+                  <div style="font-size: 1.8rem; color: #2E7D32; font-weight: 800; line-height: 1.1;">1.000.000.000</div>
                   <div style="font-size: 0.8rem; color: #2E7D32; font-weight: 600;">VNĐ tối đa / năm</div>
                 </div>
               </div>
               <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.6rem; padding-top: 0.5rem; border-top: 1px solid rgba(0,0,0,0.06);">Miễn thường: 8.000.000 VNĐ/vụ</div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9b: ĐIỀU KIỆN THAM GIA BẢO HIỂM -->
+    <section class="slide" id="slide-9b">
+      <div class="slide-content">
+        <div class="slide-header">
+          <div>
+            <span class="slide-tagline">Chi tiết giải pháp</span>
+            <h2 class="slide-title">Điều kiện tham gia bảo hiểm</h2>
+            <p class="slide-subtitle">Doanh nghiệp cần xác nhận đáp ứng đủ 5 tiêu chí sau</p>
+          </div>
+        </div>
+
+        <div class="grid-2" style="gap: 1.5rem; align-items: start;">
+
+          <!-- CARD TRÁI: Thông tin yêu cầu -->
+          <div class="animate-el delay-1">
+            <div class="premium-card" style="padding: 1.5rem; height: 100%;">
+              <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--accent); margin-bottom: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em;">Thông tin cần cung cấp</h3>
+              <div style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem;">
+                <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.9rem 1rem; background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.2); border-radius: 10px;">
+                  <span style="font-size: 1.4rem;">📋</span>
+                  <div>
+                    <div style="font-weight: 700; color: var(--text-primary); font-size: 0.95rem;">Tên doanh nghiệp</div>
+                    <div style="font-size: 0.8rem; color: var(--text-muted);">Tên đầy đủ theo đăng ký kinh doanh</div>
+                  </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.9rem 1rem; background: rgba(0,212,255,0.06); border: 1px solid rgba(0,212,255,0.2); border-radius: 10px;">
+                  <span style="font-size: 1.4rem;">🔢</span>
+                  <div>
+                    <div style="font-weight: 700; color: var(--text-primary); font-size: 0.95rem;">Mã số thuế</div>
+                    <div style="font-size: 0.8rem; color: var(--text-muted);">Mã số thuế doanh nghiệp (MST)</div>
+                  </div>
+                </div>
+              </div>
+              <div style="background: rgba(0,212,255,0.05); border-left: 3px solid var(--accent); padding: 0.8rem 1rem; border-radius: 0 8px 8px 0; font-size: 0.82rem; color: var(--text-muted); line-height: 1.6;">
+                Chương trình <strong style="color: var(--text-primary);">không yêu cầu bộ câu hỏi thẩm định</strong> trước khi cấp đơn. Doanh nghiệp chỉ cần cung cấp Tên và Mã số thuế để hoàn tất thủ tục tham gia.
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD PHẢI: 5 tiêu chí xác nhận -->
+          <div class="animate-el delay-2">
+            <div class="premium-card" style="padding: 1.5rem; height: 100%;">
+              <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--accent); margin-bottom: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em;">5 tiêu chí xác nhận</h3>
+              <div style="display: flex; flex-direction: column; gap: 0.7rem; margin-bottom: 1.5rem;">
+                <div style="display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.65rem 0.85rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+                  <span style="color: var(--accent); font-size: 1rem; flex-shrink: 0; margin-top: 0.05rem;">☐</span>
+                  <span><strong style="color: var(--text-primary);">1.</strong> Doanh thu dưới <strong style="color: var(--accent);">26 tỷ VNĐ/năm</strong> (tương đương 1 triệu USD)</span>
+                </div>
+                <div style="display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.65rem 0.85rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+                  <span style="color: var(--accent); font-size: 1rem; flex-shrink: 0; margin-top: 0.05rem;">☐</span>
+                  <span><strong style="color: var(--text-primary);">2.</strong> Không phải là công ty con của công ty nước ngoài</span>
+                </div>
+                <div style="display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.65rem 0.85rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+                  <span style="color: var(--accent); font-size: 1rem; flex-shrink: 0; margin-top: 0.05rem;">☐</span>
+                  <span><strong style="color: var(--text-primary);">3.</strong> Không có tổn thất trong vòng <strong style="color: var(--accent);">3 năm gần nhất</strong></span>
+                </div>
+                <div style="display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.65rem 0.85rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+                  <span style="color: var(--accent); font-size: 1rem; flex-shrink: 0; margin-top: 0.05rem;">☐</span>
+                  <span><strong style="color: var(--text-primary);">4.</strong> Tại thời điểm tham gia, chưa bị phạt do vi phạm về lộ dữ liệu</span>
+                </div>
+                <div style="display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.65rem 0.85rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+                  <span style="color: var(--accent); font-size: 1rem; flex-shrink: 0; margin-top: 0.05rem;">☐</span>
+                  <span><strong style="color: var(--text-primary);">5.</strong> Tại thời điểm tham gia, không nhận thức được tình huống lộ dữ liệu nào</span>
+                </div>
+              </div>
+              <div style="background: linear-gradient(135deg, rgba(0,212,255,0.12), rgba(0,212,255,0.06)); border: 1.5px solid var(--accent); border-radius: 10px; padding: 0.75rem 1.2rem; text-align: center; font-size: 0.9rem; font-weight: 700; color: var(--accent); letter-spacing: 0.02em;">
+                ✓ Xác nhận cả 5 điều kiện trên
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -3860,6 +3953,9 @@
                     <span>Tư vấn viên hỗ trợ khách điền đơn giấy bảo hiểm (tên DN, MST, thông tin liên hệ)</span>
                   </div>
                 </div>
+                <div style="margin-top: 0.4rem; font-size: 0.72rem; color: var(--accent); background: rgba(0,212,255,0.06); border-left: 2px solid var(--accent); padding: 0.3rem 0.6rem; border-radius: 0 4px 4px 0;">
+                  📋 Thông tin cần thu thập: Tên doanh nghiệp · Mã số thuế · Email nhận GCNBH
+                </div>
               </div>
             </div>
 
@@ -3871,11 +3967,11 @@
                 <div style="display: flex; flex-direction: column; gap: 0.22rem;">
                   <div style="display: flex; align-items: baseline; gap: 0.5rem; font-size: 0.78rem; color: var(--text-muted); line-height: 1.45;">
                     <span style="flex-shrink: 0; min-width: 4.2rem; text-align: center; background: rgba(2,136,209,0.15); color: #00B4D8; font-size: 0.62rem; font-weight: 700; padding: 0.12rem 0; border-radius: 4px;">🌐 Online</span>
-                    <span>Khách xác nhận và chọn gói Tiêu Chuẩn (2.600.000 VNĐ/năm) trực tiếp trên web</span>
+                    <span>Khách xác nhận 5 điều kiện tham gia và chọn gói Tiêu Chuẩn (2.600.000 VNĐ/năm) trực tiếp trên web</span>
                   </div>
                   <div style="display: flex; align-items: baseline; gap: 0.5rem; font-size: 0.78rem; color: var(--text-muted); line-height: 1.45;">
                     <span style="flex-shrink: 0; min-width: 4.2rem; text-align: center; background: rgba(245,158,11,0.15); color: #D97706; font-size: 0.62rem; font-weight: 700; padding: 0.12rem 0; border-radius: 4px;">📋 Giấy</span>
-                    <span>Tư vấn viên giới thiệu quyền lợi, DN ký xác nhận tham gia trực tiếp trên đơn giấy</span>
+                    <span>Tư vấn viên trình bày quyền lợi bảo hiểm — hạn mức bảo vệ tới 500.000.000 VNĐ, DN ký xác nhận 5 điều kiện và tham gia trực tiếp trên đơn giấy</span>
                   </div>
                 </div>
               </div>
@@ -3917,19 +4013,10 @@
               </div>
             </div>
 
-            <!-- Landing Page Demo Box -->
-            <a href="https://pvi-aviationdivision.github.io/LandingPage-PVICyberShield-SME-/" target="_blank" style="display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem; border-radius: 8px; background: rgba(2, 136, 209, 0.08); border: 1.5px solid rgba(2, 136, 209, 0.35); text-decoration: none; transition: background 0.2s; margin-top: 0.25rem;" onmouseover="this.style.background='rgba(2,136,209,0.14)'" onmouseout="this.style.background='rgba(2,136,209,0.08)'">
-              <span style="font-size: 1.3rem;">🔗</span>
-              <div>
-                <div style="font-size: 0.82rem; font-weight: 700; color: var(--accent);">Demo Landing Page đăng ký</div>
-                <div style="font-size: 0.72rem; color: var(--text-muted); line-height: 1.3; margin-top: 0.1rem;">pvi-aviationdivision.github.io/LandingPage-PVICyberShield-SME-/</div>
-              </div>
-              <span style="margin-left: auto; font-size: 0.7rem; color: var(--accent); font-weight: 700; white-space: nowrap;">Mở →</span>
-            </a>
           </div>
 
           <!-- Demo GCNBH (right column, 45%) — redesigned to match actual GCNBH -->
-          <div class="flow-right-col" style="display: flex; justify-content: center; width: 100%; align-items: flex-start;">
+          <div class="flow-right-col" style="display: flex; flex-direction: column; align-items: center; width: 100%;">
             <img src="GCNBH_mockup.png" alt="Giấy Chứng Nhận Bảo Hiểm" style="width: 100%; max-width: 340px; border-radius: 6px; box-shadow: 0 10px 30px rgba(0,0,0,0.55);">
             <div style="display:none"><!-- removed html mockup -->
               <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.35rem;">
@@ -4000,14 +4087,17 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td style="padding: 0.25rem 0.35rem; border-right: 1px solid #cbd5e1; color: #334155; vertical-align: top; line-height: 1.4;">
+                      <td style="padding: 0.25rem 0.35rem; border-right: 1px solid #cbd5e1; color: #334155; vertical-align: top; line-height: 1.5;">
                         <strong style="color: #00B4D8;">Gói Tiêu Chuẩn:</strong><br>
-                        - Chi phí khắc phục sự cố<br>
-                        - Tiền phạt theo luật định<br>
-                        - Trách nhiệm bên thứ ba
+                        <span style="color: #475569; font-weight: 600;">- Chi phí bên thứ nhất:</span><br>
+                        &nbsp;&nbsp;• Khôi phục dữ liệu cá nhân<br>
+                        &nbsp;&nbsp;• Tư vấn quản lý khủng hoảng <span style="color: #00B4D8; font-size: 0.45rem; font-weight: 700;">✦Mới</span><br>
+                        <span style="color: #475569; font-weight: 600;">- Trách nhiệm bên thứ ba:</span><br>
+                        &nbsp;&nbsp;• Tiền phạt pháp lý do lộ lọt dữ liệu<br>
+                        &nbsp;&nbsp;• Bồi thường bên thứ ba (khiếu kiện)
                       </td>
                       <td style="padding: 0.25rem 0.35rem; border-right: 1px solid #cbd5e1; vertical-align: middle;">
-                        <span style="font-weight: 700; color: #00B4D8; font-size: 0.58rem;">260.000.000 VNĐ</span><br>
+                        <span style="font-weight: 700; color: #00B4D8; font-size: 0.58rem;">500.000.000 VNĐ</span><br>
                         <span style="font-size: 0.47rem; color: #64748b;">cho toàn bộ thời hạn BH</span>
                       </td>
                       <td style="padding: 0.25rem 0.35rem; vertical-align: middle; text-align: right;">
@@ -4046,7 +4136,105 @@
               </div>
 
             </div>
+
+            <!-- Demo button below GCNBH -->
+            <a href="https://pvi-aviationdivision.github.io/LandingPage-PVICyberShield-SME-/" target="_blank" style="display: flex; align-items: center; gap: 0.6rem; padding: 0.55rem 1.1rem; border-radius: 8px; background: rgba(2, 136, 209, 0.08); border: 1.5px solid rgba(2, 136, 209, 0.35); text-decoration: none; transition: background 0.2s; margin-top: 0.6rem; width: 360px;" onmouseover="this.style.background='rgba(2,136,209,0.16)'" onmouseout="this.style.background='rgba(2,136,209,0.08)'">
+              <span style="font-size: 1rem;">🔗</span>
+              <span style="font-size: 0.8rem; font-weight: 700; color: var(--accent);">Demo Landing Page đăng ký</span>
+              <span style="font-size: 0.72rem; color: var(--accent); font-weight: 700; margin-left: auto;">Mở →</span>
+            </a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 12b: GIAI ĐOẠN 1 – KỊCH BẢN TRIỂN KHAI -->
+    <section class="slide" id="slide-12b">
+      <div class="slide-content">
+        <div class="slide-header">
+          <div>
+            <span class="slide-tagline" style="color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700;">Giai đoạn 1 – Kịch bản triển khai</span>
+            <h2 class="slide-title" style="margin-top: 0.3rem;">Cán bộ tư vấn &amp; Doanh nghiệp</h2>
+            <p class="slide-subtitle">Quy trình tiếp cận từ nhận diện rủi ro đến cấp đơn bảo hiểm</p>
+          </div>
+        </div>
+
+        <!-- 3 cards ngang -->
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; margin-bottom: 1.2rem;">
+
+          <!-- CARD 1: Nhận diện rủi ro -->
+          <div class="animate-el delay-1 premium-card" style="padding: 1.2rem 1.3rem; border-color: rgba(0,212,255,0.35); display: flex; flex-direction: column; gap: 0.6rem;">
+            <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.3rem;">
+              <span style="font-size: 1.5rem; line-height: 1;">🔍</span>
+              <h3 style="font-size: 1rem; font-weight: 800; color: var(--accent); margin: 0; line-height: 1.3;">Nhận diện rủi ro pháp lý</h3>
+            </div>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0 0 0.3rem 0; line-height: 1.5;">
+              Trong quá trình làm việc với doanh nghiệp, cán bộ tư vấn nhận thấy:
+            </p>
+            <div style="display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.8rem; color: var(--text-muted); line-height: 1.5;">
+              <div style="display: flex; gap: 0.4rem;"><span style="color: var(--accent); flex-shrink: 0;">✓</span><span>DN đang xử lý, lưu trữ dữ liệu cá nhân của khách hàng / đối tác</span></div>
+              <div style="display: flex; gap: 0.4rem;"><span style="color: var(--accent); flex-shrink: 0;">✓</span><span>Chưa có cơ chế bảo vệ tài chính khi xảy ra sự cố lộ lọt dữ liệu</span></div>
+              <div style="display: flex; gap: 0.4rem;"><span style="color: var(--accent); flex-shrink: 0;">✓</span><span>Rủi ro tuân thủ: Luật ANM 116/2025 &amp; Luật BVDLCN 91/2025</span></div>
+            </div>
+            <div style="background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.25); border-radius: 8px; padding: 0.6rem 0.8rem; font-size: 0.78rem; color: #fca5a5; line-height: 1.5; margin-top: 0.2rem;">
+              <strong style="color: #f87171;">⚠ Hậu quả nếu xảy ra sự cố:</strong><br>
+              Phạt hành chính + Bồi thường bên thứ ba + Chi phí khắc phục
+            </div>
+          </div>
+
+          <!-- CARD 2: Tư vấn giải pháp -->
+          <div class="animate-el delay-2 premium-card" style="padding: 1.2rem 1.3rem; border-color: rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 0.6rem;">
+            <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.3rem;">
+              <span style="font-size: 1.5rem; line-height: 1;">💡</span>
+              <h3 style="font-size: 1rem; font-weight: 800; color: var(--text-light); margin: 0; line-height: 1.3;">Tư vấn giải pháp bảo vệ tài chính</h3>
+            </div>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0; line-height: 1.5;">
+              Cán bộ tư vấn chia sẻ với doanh nghiệp:
+            </p>
+            <div style="background: rgba(255,255,255,0.04); border-left: 3px solid rgba(255,255,255,0.2); padding: 0.7rem 0.9rem; border-radius: 0 8px 8px 0; font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; font-style: italic;">
+              "Bảo hiểm Cyber Shield SME là giải pháp bảo vệ tài chính toàn diện — hỗ trợ chi phí khắc phục sự cố, tư vấn khủng hoảng và bồi thường pháp lý theo quy định luật mới."
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.8rem; color: var(--text-muted); line-height: 1.5;">
+              <div style="font-weight: 700; color: var(--text-light); font-size: 0.82rem; margin-bottom: 0.1rem;">📌 Điểm nhấn:</div>
+              <div style="display: flex; gap: 0.4rem;"><span style="color: var(--accent); flex-shrink: 0;">—</span><span>Hạn mức bảo vệ: <strong style="color: var(--accent);">500.000.000 VNĐ</strong></span></div>
+              <div style="display: flex; gap: 0.4rem;"><span style="color: var(--accent); flex-shrink: 0;">—</span><span>Phí chỉ: <strong style="color: var(--accent);">2.600.000 VNĐ/năm</strong></span></div>
+              <div style="display: flex; gap: 0.4rem;"><span style="color: var(--accent); flex-shrink: 0;">—</span><span>Không cần thẩm định phức tạp</span></div>
+              <div style="display: flex; gap: 0.4rem;"><span style="color: var(--accent); flex-shrink: 0;">—</span><span>Cấp đơn ngay trong vài phút</span></div>
+            </div>
+          </div>
+
+          <!-- CARD 3: Đăng ký & Cấp đơn -->
+          <div class="animate-el delay-3 premium-card" style="padding: 1.2rem 1.3rem; border-color: rgba(0,230,118,0.3); display: flex; flex-direction: column; gap: 0.6rem;">
+            <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.3rem;">
+              <span style="font-size: 1.5rem; line-height: 1;">✅</span>
+              <h3 style="font-size: 1rem; font-weight: 800; color: #4ade80; margin: 0; line-height: 1.3;">Đăng ký &amp; Nhận bảo hiểm ngay</h3>
+            </div>
+            <div style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.5;">
+              <div style="font-weight: 700; color: var(--text-light); margin-bottom: 0.4rem;">Thông tin cần cung cấp (tối giản):</div>
+              <div style="display: flex; flex-direction: column; gap: 0.2rem; margin-bottom: 0.6rem;">
+                <div>📋 Tên doanh nghiệp</div>
+                <div>📋 Mã số thuế</div>
+                <div>📋 Email nhận GCNBH</div>
+              </div>
+              <div style="font-weight: 700; color: var(--text-light); margin-bottom: 0.4rem;">Cán bộ tư vấn hỗ trợ:</div>
+              <div style="display: flex; flex-direction: column; gap: 0.3rem;">
+                <div>→ Mở Landing Page để DN tự điền (quét QR)</div>
+                <div style="text-align: center; font-size: 0.72rem; color: var(--text-muted); font-style: italic;">HOẶC</div>
+                <div>→ Điền đơn giấy + đóng dấu PVI tại chỗ</div>
+              </div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 0.25rem; margin-top: auto; padding-top: 0.5rem; border-top: 1px solid rgba(0,230,118,0.2);">
+              <div style="font-size: 0.8rem; color: #4ade80;">⏱ Thời gian cấp đơn: <strong>Dưới 5 phút</strong></div>
+              <div style="font-size: 0.8rem; color: var(--text-muted);">📧 GCNBH: Gửi email ngay — có giá trị pháp lý</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Banner cuối slide -->
+        <div style="background: linear-gradient(135deg, rgba(0,100,160,0.85) 0%, rgba(0,30,60,0.95) 100%); border: 1px solid rgba(0,212,255,0.4); border-radius: 10px; padding: 0.9rem 1.5rem; text-align: center; font-size: 0.85rem; color: #fff; line-height: 1.6;">
+          <span style="font-weight: 700; color: #fff;">"Quy trình đơn giản · Không thẩm định · Bảo vệ ngay lập tức</span> —
+          Đáp ứng nghĩa vụ tuân thủ theo <strong style="color: #7dd3fc;">Luật An ninh mạng &amp; Luật Bảo vệ Dữ liệu Cá nhân 2025</strong>"
         </div>
       </div>
     </section>
@@ -4081,14 +4269,14 @@
               <div class="premium-card" style="padding: 0.7rem 0.9rem; border-color: rgba(2, 136, 209, 0.15); background: rgba(2, 136, 209, 0.03);">
                 <h4 style="font-size: 0.82rem; font-weight: 700; color: var(--accent); margin-bottom: 0.2rem; text-transform: uppercase;">2. Cấp đơn trực tuyến 100% (Gói Tiêu Chuẩn)</h4>
                 <p style="font-size: 0.72rem; color: var(--text-muted); line-height: 1.4; margin: 0; text-align: justify;">
-                  Với gói hạn mức tiêu chuẩn 260.000.000 VNĐ, doanh nghiệp điền thông tin đăng ký, thực hiện thanh toán trực tuyến qua mã QR VietQR hoặc Thẻ thanh toán nội địa/quốc tế và nhận e-Policy ngay lập tức qua email.
+                  Với gói hạn mức tiêu chuẩn 500.000.000 VNĐ, doanh nghiệp điền thông tin đăng ký, thực hiện thanh toán trực tuyến qua mã QR VietQR hoặc Thẻ thanh toán nội địa/quốc tế và nhận e-Policy ngay lập tức qua email.
                 </p>
               </div>
 
               <div class="premium-card" style="padding: 0.7rem 0.9rem; border-color: rgba(255, 183, 3, 0.15); background: rgba(255, 183, 3, 0.01);">
                 <h4 style="font-size: 0.82rem; font-weight: 700; color: var(--gold); margin-bottom: 0.2rem; text-transform: uppercase;">3. Khảo sát hạn mức tùy chỉnh</h4>
                 <p style="font-size: 0.72rem; color: var(--text-muted); line-height: 1.4; margin: 0; text-align: justify;">
-                  Nếu doanh nghiệp nhập hạn mức tùy chỉnh lớn hơn 260.000.000 VNĐ, hệ thống chuyển tiếp yêu cầu đến phòng Thẩm định của Bảo hiểm PVI. Chuyên viên sẽ gọi điện tư vấn và khảo sát trực tiếp trong vòng 2 giờ.
+                  Nếu doanh nghiệp nhập hạn mức tùy chỉnh lớn hơn 500.000.000 VNĐ, hệ thống chuyển tiếp yêu cầu đến phòng Thẩm định của Bảo hiểm PVI. Chuyên viên sẽ gọi điện tư vấn và khảo sát trực tiếp trong vòng 2 giờ.
                 </p>
               </div>
             </div>
@@ -4137,12 +4325,12 @@
                     <span>🛡️</span> An tâm Pháp lý, An Toàn Tài chính
                   </div>
                   <p class="mockup-rec-text" style="text-align: justify; margin-bottom: 0.35rem;">
-                    Kích hoạt gói <strong>Bảo hiểm PVI Cyber Shield SME</strong> để bảo vệ tài chính doanh nghiệp trước rủi ro an ninh mạng. Hỗ trợ bồi thường lên tới <strong>260.000.000 VNĐ</strong>.
+                    Kích hoạt gói <strong>Bảo hiểm PVI Cyber Shield SME</strong> để bảo vệ tài chính doanh nghiệp trước rủi ro an ninh mạng. Hỗ trợ bồi thường lên tới <strong>500.000.000 VNĐ</strong>.
                   </p>
                   <div style="font-size: 0.55rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.2rem; color: #475569; border-top: 1px dashed #cbd5e1; padding-top: 0.35rem;">
-                    <div>• Chi phí khắc phục sự cố</div>
-                    <div>• Tiền phạt theo luật định</div>
-                    <div style="grid-column: span 2;">• Trách nhiệm bên thứ ba</div>
+                    <div style="grid-column: span 2;">• Chi phí khôi phục dữ liệu cá nhân (tới 250.000.000 VNĐ)</div>
+                    <div style="grid-column: span 2;">• Chi phí tư vấn quản lý khủng hoảng (tới 100.000.000 VNĐ) <span style="color: #00B4D8;">✨ Mới</span></div>
+                    <div style="grid-column: span 2;">• Tiền phạt pháp lý &amp; Trách nhiệm bên thứ ba (tới hạn mức gói)</div>
                     <div style="grid-column: span 2; color: #ef4444; font-weight: 600;">• Mức miễn thường: 8.000.000 VNĐ/vụ</div>
                   </div>
                 </div>
@@ -4174,7 +4362,7 @@
                   <input type="radio" name="opt-card-group" id="radio-card-a" checked="">
                   <div class="mockup-badge popular">✦ PHỔ BIẾN NHẤT</div>
                   <div style="font-size: 0.78rem; font-weight: 800; color: #0f172a; margin-bottom: 0.1rem;">Gói Tiêu Chuẩn</div>
-                  <div style="font-size: 0.68rem; color: #64748b; margin-bottom: 0.1rem;">Hạn mức bảo vệ: <strong>260.000.000 VNĐ</strong></div>
+                  <div style="font-size: 0.68rem; color: #64748b; margin-bottom: 0.1rem;">Hạn mức bảo vệ: <strong>500.000.000 VNĐ</strong></div>
                   <div style="font-size: 0.75rem; font-weight: 700; color: #00B4D8; margin-bottom: 0.25rem;">Phí bảo hiểm: 2.600.000 VNĐ/năm</div>
                   <div style="font-size: 0.56rem; color: #64748b; line-height: 1.3; border-top: 1px dashed #e2e8f0; padding-top: 0.25rem;">
                        • Chi trả chi phí khắc phục &amp; điều tra sự cố<br>
@@ -4184,18 +4372,32 @@
                   </div>
                 </div>
                 
-                <!-- Option B Card -->
+                <!-- Option B Card: Gói 2 -->
                 <div class="mockup-radio-card" id="opt-card-b" onclick="selectOptionCard(&#39;B&#39;)">
                   <input type="radio" name="opt-card-group" id="radio-card-b">
+                  <div class="mockup-badge" style="background: #dbeafe; color: #1d4ed8;">✦ GÓI 2</div>
+                  <div style="font-size: 0.78rem; font-weight: 800; color: #0f172a; margin-bottom: 0.05rem;">Gói Tiêu Chuẩn 2</div>
+                  <div style="font-size: 0.6rem; color: #94a3b8; margin-bottom: 0.1rem;">Doanh thu 10 – 20 tỷ / năm</div>
+                  <div style="font-size: 0.68rem; color: #64748b; margin-bottom: 0.1rem;">Hạn mức bảo vệ: <strong>1.000.000.000 VNĐ</strong></div>
+                  <div style="font-size: 0.75rem; font-weight: 700; color: #00B4D8; margin-bottom: 0.25rem;">Phí bảo hiểm: 5.000.000 VNĐ/năm</div>
+                  <div style="font-size: 0.56rem; color: #64748b; line-height: 1.3; border-top: 1px dashed #e2e8f0; padding-top: 0.25rem;">
+                       • Chi trả chi phí khắc phục &amp; điều tra sự cố<br>
+                       • Hỗ trợ tiền phạt theo luật<br>
+                       • Khiếu kiện từ chủ thể dữ liệu<br>
+                     <span style="color: #ef4444; font-weight: 600;">• Mức miễn thường: 8.000.000 VNĐ/vụ</span>
+                  </div>
+                </div>
+
+                <!-- Option C Card: Tùy chỉnh -->
+                <div class="mockup-radio-card" id="opt-card-c" onclick="selectOptionCard(&#39;C&#39;)">
+                  <input type="radio" name="opt-card-group" id="radio-card-c">
                   <div class="mockup-badge" style="background: #e2e8f0; color: #475569;">⚙ GÓI TÙY CHỈNH</div>
                   <div style="font-size: 0.78rem; font-weight: 800; color: #0f172a; margin-bottom: 0.1rem;">Tùy chỉnh STBH theo nhu cầu</div>
                   <div style="font-size: 0.64rem; color: #64748b; line-height: 1.3; margin-bottom: 0.15rem;">
                     Nhập số tiền bảo hiểm mong muốn. Chuyên gia Bảo hiểm PVI sẽ liên hệ tư vấn và báo phí.
                   </div>
-                  
                   <div class="mockup-custom-limit-container" id="mockup-custom-limit-box">
-          
-          <input class="mockup-input" type="number" id="mockup-custom-val" placeholder="Nhập hạn mức mong muốn (VNĐ)..." min="1" onclick="event.stopPropagation();">
+                    <input class="mockup-input" type="number" id="mockup-custom-val" placeholder="Nhập hạn mức mong muốn (VNĐ)..." min="1" onclick="event.stopPropagation();">
                   </div>
                 </div>
                 
@@ -4220,7 +4422,7 @@
                 </div>
                 
                 <div style="background: #ecfeff; border: 1px solid #a5f3fc; border-radius: 6px; padding: 0.3rem 0.45rem; font-size: 0.6rem; color: #0e7490; margin-bottom: 0.35rem; font-weight: 600;">
-                  📍 Gói Tiêu Chuẩn · Hạn mức 260.000.000 VNĐ · Phí 2.600.000 VNĐ/năm
+                  <span id="m31-goi-header">📍 Gói Tiêu Chuẩn · Hạn mức 500.000.000 VNĐ · Phí 2.600.000 VNĐ/năm</span>
                 </div>
                 
                 <div class="mockup-form-group">
@@ -4367,10 +4569,10 @@
                 <div class="mockup-card" style="padding: 0.55rem; font-size: 0.64rem; line-height: 1.35; border-left: 3.5px solid #00B4D8; margin-bottom: 0.4rem;">
                   <div style="font-weight: 700; color: #0f172a; margin-bottom: 0.15rem; font-size: 0.68rem;">Tóm tắt đơn hàng bảo hiểm</div>
                   <div>Gói: <strong>Bảo hiểm PVI Cyber Shield SME – Tiêu Chuẩn</strong></div>
-                  <div>Hạn mức bảo vệ (STBH): <strong>260.000.000 VNĐ</strong></div>
+                  <div>Hạn mức bảo vệ (STBH): <strong id="m4-stbh-display">500.000.000 VNĐ</strong></div>
                 <div>Mức miễn thường: <strong>8.000.000 VNĐ/vụ</strong></div>
                   <div>Thời hạn: <strong>12 tháng</strong></div>
-                  <div>Phí bảo hiểm: <strong style="color: #00B4D8; font-size: 0.7rem;">2.600.000 VNĐ</strong></div>
+                  <div>Phí bảo hiểm: <strong id="m4-phi-display" style="color: #00B4D8; font-size: 0.7rem;">2.600.000 VNĐ</strong></div>
                   <div style="border-top: 1px dashed #e2e8f0; margin-top: 0.2rem; padding-top: 0.2rem;">
                     <div>Tên DN: <strong id="m4-company-display">-</strong></div>
                     <div>MST: <strong id="m4-tax-display">-</strong></div>
@@ -4404,7 +4606,7 @@
                 
                 <div id="m4-error" style="color: #ef4444; font-size: 0.58rem; margin-bottom: 0.3rem; display: none; text-align: left;"></div>
                 
-                <button class="mockup-btn" onclick="submitScreen4()">Xác nhận thanh toán 2.600.000 VNĐ</button>
+                <button class="mockup-btn" id="m4-confirm-btn" onclick="submitScreen4()">Xác nhận thanh toán 2.600.000 VNĐ</button>
               </div>
 
               <!-- MÀN 5: Thanh toán thành công & Chứng nhận -->
@@ -4432,7 +4634,7 @@
                     <div>• Số hợp đồng: <strong id="m5-contract-num">CYB-2025-481920</strong></div>
                     <div>• Hiệu lực từ: <strong id="m5-start-date">-</strong></div>
                     <div>• Hiệu lực đến: <strong id="m5-end-date">-</strong></div>
-                    <div>• Hạn mức bảo vệ (STBH): <strong>260.000.000 VNĐ</strong></div>
+                    <div>• Hạn mức bảo vệ (STBH): <strong id="m5-stbh-display">500.000.000 VNĐ</strong></div>
                 <div>Mức miễn thường: <strong>8.000.000 VNĐ/vụ</strong></div>
                   </div>
                   
@@ -4466,10 +4668,13 @@
       if (index < 0 || index >= slides.length) return;
       currentIdx = index;
 
-      // Each slide is exactly 100vh = container.clientHeight.
-      // Using index * clientHeight avoids offsetTop miscalculation when
-      // offsetParent is body (not the container).
-      container.scrollTo({ top: index * container.clientHeight, behavior: 'smooth' });
+      // Use getBoundingClientRect to get the actual rendered position,
+      // which correctly handles display:none slides (they have 0 height).
+      const el = slides[index];
+      const containerRect = container.getBoundingClientRect();
+      const elRect = el.getBoundingClientRect();
+      const scrollTarget = container.scrollTop + (elRect.top - containerRect.top);
+      container.scrollTo({ top: scrollTarget, behavior: 'smooth' });
 
       updateNavState(index);
     }
@@ -4495,17 +4700,17 @@
       });
     }
 
-    // NEXT/PREV NAVIGATION WRAPPERS
+    // NEXT/PREV NAVIGATION WRAPPERS — skip hidden slides
     function nextSlide() {
-      if (currentIdx < slides.length - 1) {
-        scrollToSlide(currentIdx + 1);
-      }
+      let next = currentIdx + 1;
+      while (next < slides.length && getComputedStyle(slides[next]).display === 'none') next++;
+      if (next < slides.length) scrollToSlide(next);
     }
 
     function prevSlide() {
-      if (currentIdx > 0) {
-        scrollToSlide(currentIdx - 1);
-      }
+      let prev = currentIdx - 1;
+      while (prev >= 0 && getComputedStyle(slides[prev]).display === 'none') prev--;
+      if (prev >= 0) scrollToSlide(prev);
     }
 
     // KEYBOARD NAVIGATION LISTENERS
@@ -4536,13 +4741,16 @@
       threshold: 0.5
     };
 
+    const slidesArray = Array.from(slides);
+
     const slideObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          const slideId = entry.target.id;
-          const index = parseInt(slideId.replace('slide-', ''));
-          currentIdx = index;
-          updateNavState(index);
+          const index = slidesArray.indexOf(entry.target);
+          if (index !== -1) {
+            currentIdx = index;
+            updateNavState(index);
+          }
         }
       });
     }, observerOptions);
@@ -4567,25 +4775,29 @@
     }
 
     function selectOptionCard(opt) {
-      const cardA = document.getElementById('opt-card-a');
-      const cardB = document.getElementById('opt-card-b');
-      const radioA = document.getElementById('radio-card-a');
-      const radioB = document.getElementById('radio-card-b');
+      ['opt-card-a','opt-card-b','opt-card-c'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.classList.remove('active');
+      });
+      ['radio-card-a','radio-card-b','radio-card-c'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.checked = false;
+      });
       const customBox = document.getElementById('mockup-custom-limit-box');
       const nextBtn = document.getElementById('mockup-screen2-next-btn');
+      customBox.classList.remove('active');
 
       if (opt === 'A') {
-        cardA.classList.add('active');
-        cardB.classList.remove('active');
-        radioA.checked = true;
-        radioB.checked = false;
-        customBox.classList.remove('active');
+        document.getElementById('opt-card-a').classList.add('active');
+        document.getElementById('radio-card-a').checked = true;
+        nextBtn.textContent = 'Mua ngay →';
+      } else if (opt === 'B') {
+        document.getElementById('opt-card-b').classList.add('active');
+        document.getElementById('radio-card-b').checked = true;
         nextBtn.textContent = 'Mua ngay →';
       } else {
-        cardA.classList.remove('active');
-        cardB.classList.add('active');
-        radioA.checked = false;
-        radioB.checked = true;
+        document.getElementById('opt-card-c').classList.add('active');
+        document.getElementById('radio-card-c').checked = true;
         customBox.classList.add('active');
         nextBtn.textContent = 'Đăng ký tư vấn →';
         document.getElementById('mockup-custom-val').focus();
@@ -4593,7 +4805,7 @@
     }
 
     function submitScreen2() {
-      const isCustomSelected = document.getElementById('radio-card-b').checked;
+      const isCustomSelected = document.getElementById('radio-card-c').checked;
       if (isCustomSelected) {
         const customVal = document.getElementById('mockup-custom-val').value.trim();
         if (!customVal || parseFloat(customVal) <= 0) {
@@ -4603,6 +4815,23 @@
         document.getElementById('m32-custom-val-display').textContent = parseFloat(customVal).toLocaleString('vi-VN') + ' VNĐ';
         goToMockupScreen('mockup-screen-3-2');
       } else {
+        const isGoi2 = document.getElementById('radio-card-b').checked;
+        const stbh = isGoi2 ? '1.000.000.000 VNĐ' : '500.000.000 VNĐ';
+        const phi = isGoi2 ? '5.000.000 VNĐ' : '2.600.000 VNĐ';
+        const goiLabel = isGoi2 ? 'Gói Tiêu Chuẩn 2' : 'Gói Tiêu Chuẩn';
+        // Update screen 3-1 header
+        const hdr = document.getElementById('m31-goi-header');
+        if (hdr) hdr.textContent = `📍 ${goiLabel} · Hạn mức ${stbh} · Phí ${phi}/năm`;
+        // Update screen 4
+        const m4s = document.getElementById('m4-stbh-display');
+        const m4p = document.getElementById('m4-phi-display');
+        const m4b = document.getElementById('m4-confirm-btn');
+        if (m4s) m4s.textContent = stbh;
+        if (m4p) m4p.textContent = phi;
+        if (m4b) m4b.textContent = `Xác nhận thanh toán ${phi}`;
+        // Update screen 5
+        const m5s = document.getElementById('m5-stbh-display');
+        if (m5s) m5s.textContent = stbh;
         goToMockupScreen('mockup-screen-3-1');
       }
     }
@@ -4942,13 +5171,23 @@
         <tbody>
           <tr>
             <td>
-              <strong>Gói Tiêu Chuẩn:</strong><br>
-              - Chi phí khắc phục sự cố: Chi phí thuê chuyên gia hỗ trợ phục hồi dữ liệu rò rỉ do sự cố mạng<br>
-              - Tiền phạt theo luật định: Chi trả các khoản phạt hành chính do doanh nghiệp bị rò rỉ dữ liệu<br>
-              - Trách nhiệm bên thứ ba: Bồi thường cho bên thứ ba (khiếu kiện từ chủ thể dữ liệu do lộ lọt thông tin)
+              <strong>Phạm vi 1 — Chi phí bên thứ nhất:</strong><br>
+              • Chi phí khôi phục dữ liệu cá nhân<br>
+              • Chi phí tư vấn quản lý khủng hoảng (phạm vi bổ sung)
             </td>
-            <td><strong>260.000.000 VNĐ</strong><br><span style="font-size: 0.8rem; color: #64748b;">cho tổng cộng toàn bộ thời gian bảo hiểm</span></td>
-            <td><strong>2.600.000 VNĐ</strong><br><span style="font-size: 0.8rem; color: #64748b;">(đã thanh toán)</span></td>
+            <td>
+              Tối đa 250.000.000 VNĐ (khôi phục dữ liệu)<br>
+              <span style="font-size: 0.8rem; color: #64748b;">Tối đa 100.000.000 VNĐ (tư vấn khủng hoảng)</span>
+            </td>
+            <td rowspan="2"><strong>2.600.000 VNĐ</strong><br><span style="font-size: 0.8rem; color: #64748b;">(đã thanh toán)</span></td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Phạm vi 2 — Trách nhiệm bên thứ ba:</strong><br>
+              • Tiền phạt pháp lý do lộ lọt dữ liệu<br>
+              • Trách nhiệm pháp lý với bên thứ ba
+            </td>
+            <td>Tổng hạn mức tối đa 500.000.000 VNĐ</td>
           </tr>
           <tr>
             <td colspan="3" style="font-size: 0.8rem; color: #64748b; border-left: none; border-right: none; border-bottom: none; padding: 4px 12px 0 12px;">* Mức miễn thường: 8.000.000 VNĐ / vụ tổn thất</td>
